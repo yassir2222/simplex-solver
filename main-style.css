@@ -1,0 +1,18 @@
+.header__center {
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-column-gap: 1.2rem;
+    align-items: center;
+}
+
+.header__center::before,
+.header__center::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: currentColor;
+}
+.shadow:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
